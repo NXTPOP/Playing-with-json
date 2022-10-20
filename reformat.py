@@ -2,7 +2,7 @@ import json
 import os
 
 count = 0
-for root_dir, cur_dir, files in os.walk(r'/Users/yannis/Desktop/Travail/The_Riot/out'):
+for root_dir, cur_dir, files in os.walk(r'<Your_directory_path_that_contain_all_the_json_to_update>'):
     count += len(files)
 print('file count:', count)
 
